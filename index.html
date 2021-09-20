@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Welcome to Electron!</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
-    <h1>Welcome to Electron!</h1>
-    <p>
-        We are using Node.js <span id="node-version"></span>,
-        Chromium <span id="chrome-version"></span>,
-        and Electron <span id="electron-version"></span>.
-    </p>
+
+    <main class="content">
+        <h1>Welcome to Electron Thrift shop!</h1>
+
+
+        <section>
+            <h3>Lists</h3>
+            <button id="create">Create new product</button>
+
+            <div id="main"></div>
+        </section>
+
+        <sup>
+            <p>
+                Made by using Node.js <span id="node-version"></span>,
+                Chromium <span id="chrome-version"></span>,
+                and Electron <span id="electron-version"></span>.
+            </p>
+        </sup>
+    </main>
 </body>
 <script src="./renderer.js"></script>
+
 </html>
