@@ -1,0 +1,19 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "First electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Electron",
+    "gart-electron-app"
+  ],
+  "author": "Jesray Garciano",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^14.0.1"
+  }
+}
